@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>私房菜</title>
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+
+<style>
+#menu { margin: 0; padding: 0; position: fixed; left: 10px; top: 10px; list-style-type: none; z-index: 70;}
+#menu li { float: left; margin:  0 10px 0 0; font-size: 14px;}
+#menu a { float: left; padding: 10px 20px; background-color: #fff; color: #333; text-decoration: none;}
+#menu .active a { color: #fff; background-color: #333;}
+.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+  a{  text-decoration:none;
+      color:red;
+    }
+
+</style>
+
+<style type="text/css">
+	 h6{
+ 	font-size:24px;
+ 	/*font-color:*/;
+ }
+</style>
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script>
+$(function(){
+	$('#dowebok').fullpage({
+		sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+		anchors: ['page1', 'page2', 'page3', 'page4'],
+		menu: '#menu'
+	});
+});
+</script>
+</head>
+
+<body>
+
+<ul id="menu">
+	<li data-menuanchor="page1" class="active"><a href="#page1">Top</a></li>
+</ul>
+
+<div id="dowebok">
+		
+	<div class="section">
+		<img src="imagesQXPP/sfc01.jpg"align="left">
+		<h5 align="center">口水猪肝&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+		<h6 align="center">保护视力&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          补血&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          排毒&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          消食&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          祛除寒气&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+        		<h6 align="right"><a href="QXPP.html">< 旗下品牌 ></a>&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+	</div>
+
+	<div class="section">
+		<img src="imagesQXPP/sfc02.jpg"align="left">
+		<h5 align="center">干锅排骨&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+		<h6 align="center">补肾润肺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          保护视力&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          助消化&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          祛肝火&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          除寒气&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          降糖&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+	</div>
+
+
+	<div class="section">
+		<img src="imagesQXPP/sfc03.jpg"align="left">
+		<h5 align="center">土豆炖芸豆&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+		<h6 align="center">美容瘦身&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          美容养颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          益智安神&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          消除水肿&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          延缓衰老&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          治慢性病&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+	</div>
+
+
+	<div class="section">
+		<img src="imagesQXPP/sfc04.jpg"align="left">
+		<h5 align="center">麻婆豆腐&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+		<h6 align="center">补钙&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          缓解更年期&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          预防疾病&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          防乳腺癌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+                          有益大脑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+	</div>
+                      
+
+        
+</div>
+
+
+
+
+
+
+
+
+
+
+<a href="http://www.dowebok.com/" style="display: none;">dowebok</a>
+<a href="http://www.dowebok.com/77.html" style="display: none;">jQuery全屏滚动插件fullPage.js</a>
+
+</body>
+</html>

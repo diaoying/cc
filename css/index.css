@@ -1,0 +1,203 @@
+#container{
+	height: 2800px;
+	margin: auto;
+	background: white;
+}
+#title{
+	height: 200px;
+	background: white;
+}
+body{
+	font-family: arial;
+	font-size: 22px;
+	padding: 0px;
+	margin: 0px;
+	background: #f8f8f8;
+}
+a{
+	text-decoration: none;
+    color: black;
+}
+
+img{
+	border: none;
+}
+ul,li{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.wrap_top{
+	
+	height: 50px;
+	margin: -20px;
+}
+.top{
+	background-color: crimson;
+	margin: auto;
+	overflow: hidden;
+	height: 60px;
+}
+.navmenu{
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	overflow: hidden;
+	float: left;
+	margin-top: 8px;
+	background: crimson;
+	margin-left: 150px;
+	font-size: 24px;
+}
+.menu1,.menu1 ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.menu1 li{
+	height: 50px;
+	width: 200px;
+	float: left;
+	line-height: 50px;
+	padding: 0px;
+	margin: 0px;
+}
+.menua{
+	display: block;
+	font-size: 22px;
+	margin: 0px;
+	width: 93px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.menu1 a:hover{
+	color: white;
+}
+#food{
+	height: 600px;
+	background: white;
+	margin-top: 30px;
+}
+#about{
+    height: 650px;
+    background: white;
+    margin-top: 40px;
+}
+.about_title1{
+	height: 150px;
+	background: crimson;
+}
+.about_title2{
+	height: 150px;
+	background: white;
+}
+.h1{  
+    font-size: 38px;
+    color: white;
+}
+.about_left{
+	width: 500px;
+	height: 350px;
+	background: yellow;
+	float: left;
+	margin-left: 50px;
+	
+}
+.about_right{
+	width: 615px;
+	height: 400px;
+	background: white;
+	float: right;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+.font{
+	
+	font-size: 20px;
+	color: gray;
+	line-height: 35px;
+}
+#brand{
+	height: 700px;
+	background: crimson;
+}
+.brand_1{
+	height: 400px;
+	width: 262px;
+	background: white;
+	float: left;
+	margin-top: 50px;
+	margin-left:60px;
+}
+.brand_2{
+	height: 400px;
+	width: 250px;
+	background: white;
+	float: left;
+    margin-top: 50px;
+	margin-left:60px;
+}
+.brand_2_1{
+	height: 261px;
+	width: 170px;
+	float: left;
+}
+.brand_2_2{
+	height: 170px;
+	width: 261px;
+	float: left;
+}
+.brand_3{
+	height: 400px;
+	width: 261px;
+	background: white;
+	float: left;
+	margin-top: 50px;
+	margin-left:60px;
+}
+.brand_3_1{
+	height: 261px;
+	width: 170px;
+	float: left;
+}
+.brand_3_2{
+	height: 170px;
+	width: 261px;
+	float: left;
+
+}
+.brand_4{
+	height: 400px;
+	width: 261px;
+	background: white;
+	float: left;
+	margin-top: 50px;
+	margin-left:60px;
+}
+#contact{
+	height: 600px;
+	background: white;
+}
+.contact_left{
+	width: 600px;
+	height: 380px;
+	background: white;
+	float: left;
+	margin-left: 300px;
+	margin-top: -40px;
+
+}
+.h2{
+	font-size: 38px;
+    color: black;
+}
+
+#footer{
+    height: 160px;
+    background: gray;
+    margin-top: -18px;
+    line-height: 26px;
+    float: none;
+}

@@ -1,0 +1,124 @@
+#container{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+
+
+}
+#header{
+
+	margin-top: -80px;
+	
+    background:crimson ;
+    
+	padding: 0px;
+	height: 650px;
+}
+#about{
+    height: 650px;
+    background: white;
+}
+.about_title1{
+	height: 150px;
+	background: crimson;
+}
+.about_title2{
+	height: 150px;
+	background: white;
+}
+.h1{  
+    font-size: 38px;
+    color: white;
+}
+.about_left{
+	width: 500px;
+	height: 350px;
+	background: yellow;
+	float: left;
+	margin-left: 90px;
+	margin-top: 25px;
+}
+.about_right{
+	width: 615px;
+	height: 400px;
+	background: white;
+	float: right;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+.font{
+	
+	font-size: 20px;
+	color: gray;
+	line-height: 35px;
+}
+#brand{
+	height: 700px;
+	background: crimson;
+}
+.brand_1{
+	height: 400px;
+	width: 262px;
+	background: white;
+	float: left;
+	margin-top: 50px;
+	margin-left:60px;
+}
+.brand_2{
+	height: 400px;
+	width: 250px;
+	background: white;
+	float: left;
+    margin-top: 50px;
+	margin-left:60px;
+}
+.brand_3{
+	height: 400px;
+	width: 261px;
+	background: white;
+	float: left;
+	margin-top: 50px;
+	margin-left:60px;
+}
+.brand_3_1{
+	height: 261px;
+	width: 170px;
+	float: left;
+}
+.brand_3_2{
+	height: 170px;
+	width: 261px;
+	float: left;
+
+}
+.brand_4{
+	height: 400px;
+	width: 261px;
+	background: white;
+	float: left;
+	margin-top: 50px;
+	margin-left:60px;
+}
+#contact{
+	height: 650px;
+	background: white;
+}
+.contact_left{
+	width: 600px;
+	height: 380px;
+	background: white;
+	float: left;
+	margin-left: 300px;
+	margin-top: -10px;
+
+}
+.h2{
+	font-size: 38px;
+    color: black;
+}
+
+#footer{
+    height: 100px;
+    background: gray;
+    margin-top: -10px;
+}

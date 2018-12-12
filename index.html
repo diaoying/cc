@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>老友记</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    	<div id="title"><p align="center"><img src="img/LOGO1.png"></div></p>
+    <div id="container">
+        <div class="wrap_top">
+	         <div class="top">
+		         <div class="navmenu"align="center">
+			        <ul class="menu1">
+				        <li><a href="index.html">首页</a></li>
+    				    <li><a href="aboutus.html">关于我们</a></li>
+    				    <li><a href="qxpp.html">旗下品牌</a></li>
+    				    <li><a href="vip.html">会员专区</a></li>
+    				    <li><a href="joinus.html">加入我们</a></li>
+			        </ul>
+		         </div>
+	         </div>
+        </div>
+
+
+        <div id="food">
+        	<link rel="stylesheet" href="css/swiper.min.css">
+            
+
+
+             <style>
+   body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.pc-banner {
+	background: url(images/top_main_bg01.jpg) no-repeat center top/100% auto;
+	width: 100%;
+	float: left;
+}
+
+@media screen and (max-width: 668px) {
+	.pc-banner {
+		background-size: auto 100%;
+	}
+}
+
+.swiper-container {
+	width: 100%;
+	margin: 35px 0;
+}
+
+@media screen and (max-width: 668px) {
+	.swiper-container {
+		margin: 20px 0 15px;
+	}
+}
+
+.swiper-slide {
+	-webkit-transition: transform 1.0s;
+	-moz-transition: transform 1.0s;
+	-ms-transition: transform 1.0s;
+	-o-transition: transform 1.0s;
+	-webkit-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+@media screen and (max-width: 668px) {
+	.swiper-slide {
+		-webkit-transform: scale(0.97);
+		transform: scale(0.97);
+	}
+}
+
+.swiper-slide-active,.swiper-slide-duplicate-active {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+@media screen and (max-width: 668px) {
+	.swiper-slide-active,.swiper-slide-duplicate-active {
+		-webkit-transform: scale(0.97);
+		transform: scale(0.97);
+	}
+}
+
+.none-effect {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+}
+
+.swiper-slide a {
+	background: #fff;
+	padding:10px;
+	display: block;
+	border-radius: 14px;
+}
+
+@media screen and (min-width: 668px) {
+	.swiper-slide a:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		box-sizing: border-box;
+		border: 10px solid #fff;
+		content: "";
+		width: 100%;
+		height: 100%;
+		background: url(images/top_slick_cover_bg01.png) 0 0 repeat;
+		border-radius: 20px;
+	}
+}
+
+.swiper-slide-active a:after {
+	background: none;
+}
+
+@media screen and (max-width: 668px) {
+	.swiper-slide a {
+		padding: 5px;
+		border-radius: 7px;
+	}
+}
+
+.swiper-slide img {
+	width: 100%;
+	border-radius: 14px;
+	display: block;
+}
+
+@media screen and (max-width: 668px) {
+	.swiper-slide img {
+		border-radius: 7px;
+	}
+}
+
+.swiper-pagination {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.swiper-pagination-bullet {
+	background: #00a0e9;
+	margin-left: 4px;
+	margin-right: 4px;
+	width: 17px;
+	height: 17px;
+	opacity: 1;
+	margin-bottom: 4px;
+}
+
+.swiper-pagination-bullet-active {
+	width: 13px;
+	height: 13px;
+	background: #FFF;
+	border: 6px solid #00a0e9;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 668px) {
+	
+	.swiper-pagination {
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.swiper-pagination-bullet {
+		background: #00a0e9;
+		margin-left: 2px;
+		margin-right: 2px;
+		width: 8px;
+		height: 8px;
+		margin-bottom: 2px;
+	}
+
+	.swiper-pagination-bullet-active {
+		width: 6px;
+		height: 6px;
+		background: #FFF;
+		border: 3px solid #00a0e9;
+		margin-bottom: 0;
+	}
+}
+
+.button {
+	width: 1000px;
+	margin: 0 auto;
+	bottom: 43px;
+	position: relative;
+}
+
+@media screen and (max-width: 668px) {
+	.button {
+		width: 70%;
+		bottom: 22px;
+	}
+}
+
+.button div:hover {
+	background-color: #2f4798;
+}
+
+.swiper-button-prev {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l4.2%2C4.2L8.4%2C22l17.8%2C17.8L22%2C44L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") #00a0e9 center 50%/50% 50% no-repeat;
+}
+
+.swiper-button-next {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L5%2C44l-4.2-4.2L18.6%2C22L0.8%2C4.2L5%2C0z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") #00a0e9 center 50%/50% 50% no-repeat;
+}
+
+@media screen and (max-width: 668px) {
+	.button div {
+		width: 28px;
+		height: 28px;
+	}
+}	
+	
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+ <section class="pc-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-center none-effect"><a href="#"><img src="images/jituan.png" ></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/04.jpg" ></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/00.jpg" ></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/3.jpg" ></a></div>
+            <div class="swiper-slide"><a href="#"><img src="images/chou.jpg" ></a></div>
+        </div>
+        
+    </div>
+    <div class="swiper-pagination"></div>
+	<div class="button">
+     <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div></div>
+</section>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+	window.onload = function() {
+    var swiper = new Swiper('.swiper-container',{
+		autoplay:3000,
+		speed:1000,
+		autoplayDisableOnInteraction : false,
+		loop:true,
+		centeredSlides : true,
+		slidesPerView:2,
+        pagination : '.swiper-pagination',
+		paginationClickable:true,
+		prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+		onInit:function(swiper){
+			swiper.slides[2].className="swiper-slide swiper-slide-active";//第一次打开不要动画
+			},
+        breakpoints: { 
+                668: {
+                    slidesPerView: 1,
+                 }
+            }
+		});
+		}
+    </script>
+
+
+
+        </div>
+
+        <div id="about">
+		<div class="about_title2"><br/><br/>
+			<div class="h2"align="center">关于我们/About Us</h2></div>
+		</div>
+		<div class="about_left">
+			<img src="img/jituan.png">
+		</div>
+		<div class="about_right">
+			<div class="font">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;老友记隶属于北京餐老友国际餐饮管理有限公司地处北京亦庄经济技术开发区，是一家集餐饮产品研发、餐饮品牌打造、餐饮食材配送、运营服务于一体的餐饮服务商，成立到现在已形成一条完整、高效的产业链。打造有中国特色的餐饮服务业品牌，是老友记长久以来的工作重心。餐百胜致力于传播原生态、体验、参与、互动、印象、感动六大主题的新餐饮模式，完善专业、健康、高效餐饮运营体系，以及构建互联网餐饮“O2O+会员制”的商业模式，实现餐饮O2O产业链闭环。公司旗下餐饮品牌已入驻北京，上海，深圳，重庆，济南等30个城市，形成了强大的品牌发展优势，资金多达三亿多...
+			</div>
+		</div>
+	</div>
+	<div id="brand">
+		<div class="about_title1"><br/><br/>
+			<div class="h1"align="center">旗下品牌/Brand</h2></div>
+		</div>
+		<div class="brand_1">
+			<img src="img/pinpai1.png">
+		</div>
+		<div class="brand_2">
+			<div class="brand_2.1"><img src="img/pinpai2.jpg"></div><br/>
+			<div class="brand_2.2"><img src="img/pinpai2.png"></div>
+		</div>
+		<div class="brand_3">
+			<div class="brand_3.1"><img src="img/pinpai3.jpg"></div>
+			<div class="brand_3.2"><img src="img/pinpai3 (3).jpg"></div>
+			
+		</div>
+		<div class="brand_4">
+			<img src="img/pinpaichaocai.png">
+		</div>
+	</div>
+	<div id="contact">
+		<div class="about_title2"><br/><br/>
+			<div class="h2"align="center">联系我们/Contact Us</h2></div>
+		</div>
+		<div class="contact_left"align="center">
+			
+			<img src="img/LOGO.png">
+		</div>
+		
+	</div>
+	<div id="footer"align="center">
+		<div><br/>首页&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;旗下品牌&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新闻中心&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;联系我们<br/>© 北京餐百胜国际餐饮管理有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP备18044585号-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;投资有风险，选择需谨慎<br/>注：本站提供7×24小时全天候服务&nbsp;&nbsp;&nbsp;&nbsp;热线电话：400-111-1111</div>
+	</div>
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
